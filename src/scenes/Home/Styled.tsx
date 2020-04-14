@@ -46,7 +46,8 @@ export const AboutMeBlock = styled.section`
   align-items: center;
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem;
+  position: relative;
 
   > div {
     flex: 1 1 0;
@@ -54,6 +55,16 @@ export const AboutMeBlock = styled.section`
 
   p {
     line-height: 1.5;
+  }
+`;
+
+export const ImageContainer = styled.div`
+  @media (max-width: 600px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
   }
 `;
 
@@ -75,6 +86,10 @@ export const Stack = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
 `;
 
 export const StackIcon = styled.img`

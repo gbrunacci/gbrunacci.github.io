@@ -5,11 +5,11 @@ import ReactLogo from 'assets/react.svg';
 import AWSLogo from 'assets/amazonaws.svg';
 import RocketImage from 'assets/rocket.svg';
 import BrainImage from 'assets/brain.svg';
-import { Hero, Title, AboutMeBlock, LargeTag, BlockImage, Stack, StackIcon } from './Styled';
+import { Hero, Title, AboutMeBlock, ImageContainer, LargeTag, BlockImage, Stack, StackIcon } from './Styled';
 
 function Home(): JSX.Element {
   return (
-    <div>
+    <>
       <Hero>
         <Title>
           <h1>Hi, I am Gabriel.</h1>
@@ -17,9 +17,9 @@ function Home(): JSX.Element {
         </Title>
       </Hero>
       <AboutMeBlock>
-        <div>
+        <ImageContainer>
           <LargeTag>&lt;/&gt;</LargeTag>
-        </div>
+        </ImageContainer>
         <div>
           <h2>A decade and a half of code.</h2>
           <p>I started my professional carrer back in 2005, dig into web development in 2007 and went through a lot of buzzwords.</p>
@@ -39,14 +39,14 @@ function Home(): JSX.Element {
           <p>Or the way I like seeing it: I found nice people along the way to work with and build interesting stuff, doing what we love.</p>
           <p>As part this journey had the luck to work with and for people all around the world since 2010. We learn, fail and succeeded in many ways. And most important, enjoying it.</p>
         </div>
-        <div>
+        <ImageContainer>
           <BlockImage src={RocketImage} alt="Rocket" />
-        </div>
+        </ImageContainer>
       </AboutMeBlock>
       <AboutMeBlock>
-        <div>
+        <ImageContainer>
           <BlockImage src={BrainImage} alt="Brain" />
-        </div>
+        </ImageContainer>
         <div>
           <h2>A learner and a lecturer.</h2>
           <p>We would not achieve anything just by ourselves, we grow only when people around us do it was well.</p>
@@ -56,7 +56,7 @@ function Home(): JSX.Element {
           </p>
         </div>
       </AboutMeBlock>
-    </div>
+    </>
   );
 }
 
