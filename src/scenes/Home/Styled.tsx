@@ -34,10 +34,6 @@ export const Title = styled.div`
     color: #fff;
     font-weight: 300;
   }
-
-  small {
-    display: block;
-  }
 `;
 
 export const AboutMeBlock = styled.section`

@@ -1,6 +1,8 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './scenes/Home';
+import Experience from './scenes/Experience';
 import Footer from 'components/Footer';
 
 const GlobalStyles = createGlobalStyle`
@@ -19,18 +21,23 @@ const GlobalStyles = createGlobalStyle`
       font-size: 16px;
       margin: 0;
       padding: 0;
-
   }
 `;
 
 function App(): JSX.Element {
   return (
-    <div className="App">
+    <Router>
       <GlobalStyles />
-      {/* Well, we don't have too many routes yes, don't we? */}
-      <Home />
+      <Switch>
+        <Route path="/experience">
+          <Experience />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

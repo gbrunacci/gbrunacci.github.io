@@ -5,7 +5,7 @@ import ReactLogo from 'assets/react.svg';
 import AWSLogo from 'assets/amazonaws.svg';
 import RocketImage from 'assets/rocket.svg';
 import BrainImage from 'assets/brain.svg';
-import { Hero, Title, AboutMeBlock, ImageContainer, LargeTag, BlockImage, Stack, StackIcon } from './Styled';
+import { Hero, Title, AboutMeBlock, ImageContainer, LargeTag, BlockImage, Stack, StackIcon } from './styled';
 
 function Home(): JSX.Element {
   return (
