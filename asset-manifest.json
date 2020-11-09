@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.753af22a.chunk.js",
-    "main.js.map": "/static/js/main.753af22a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b99443d6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b99443d6.js.map",
-    "static/js/2.bbd34e23.chunk.js": "/static/js/2.bbd34e23.chunk.js",
-    "static/js/2.bbd34e23.chunk.js.map": "/static/js/2.bbd34e23.chunk.js.map",
+    "main.js": "/static/js/main.828c595b.chunk.js",
+    "main.js.map": "/static/js/main.828c595b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c44d85d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c44d85d1.js.map",
+    "static/js/2.b60a3f8b.chunk.js": "/static/js/2.b60a3f8b.chunk.js",
+    "static/js/2.b60a3f8b.chunk.js.map": "/static/js/2.b60a3f8b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b87eb4c77911a355e66912671118c34b.js": "/precache-manifest.b87eb4c77911a355e66912671118c34b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.bbd34e23.chunk.js.LICENSE.txt": "/static/js/2.bbd34e23.chunk.js.LICENSE.txt",
-    "static/media/amazonaws.svg": "/static/media/amazonaws.df9d1a62.svg",
-    "static/media/brain.svg": "/static/media/brain.e47bde8a.svg",
-    "static/media/github.svg": "/static/media/github.7019b9b8.svg",
-    "static/media/hero.jpg": "/static/media/hero.a798374f.jpg",
-    "static/media/laravel.svg": "/static/media/laravel.56729c66.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.7bea0cf8.svg",
-    "static/media/react.svg": "/static/media/react.092e0882.svg",
-    "static/media/rocket.svg": "/static/media/rocket.475c6737.svg"
+    "static/js/2.b60a3f8b.chunk.js.LICENSE.txt": "/static/js/2.b60a3f8b.chunk.js.LICENSE.txt",
+    "static/media/amazonaws.855cd5b2.svg": "/static/media/amazonaws.855cd5b2.svg",
+    "static/media/brain.134bbde2.svg": "/static/media/brain.134bbde2.svg",
+    "static/media/github.d921596f.svg": "/static/media/github.d921596f.svg",
+    "static/media/hero.f8238c5f.jpg": "/static/media/hero.f8238c5f.jpg",
+    "static/media/laravel.6e2b93aa.svg": "/static/media/laravel.6e2b93aa.svg",
+    "static/media/linkedin.d57c15fa.svg": "/static/media/linkedin.d57c15fa.svg",
+    "static/media/react.58762525.svg": "/static/media/react.58762525.svg",
+    "static/media/rocket.754770ef.svg": "/static/media/rocket.754770ef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b99443d6.js",
-    "static/js/2.bbd34e23.chunk.js",
-    "static/js/main.753af22a.chunk.js"
+    "static/js/runtime-main.c44d85d1.js",
+    "static/js/2.b60a3f8b.chunk.js",
+    "static/js/main.828c595b.chunk.js"
   ]
 }
